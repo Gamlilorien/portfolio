@@ -9,7 +9,7 @@ var currentYear = function () {
 
 
 //EVENT triggers
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
+//onload of page
+$(document).ready(function() {
+    currentYear();
 });
