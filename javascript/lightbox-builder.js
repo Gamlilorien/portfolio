@@ -8,8 +8,55 @@
 //ekko-lightbox see; http://ashleydw.github.io/lightbox/#mixed-gallery
 
 //PURPOSE: to take arguments and generate a lightbox gallery using JQuery and Bootstrap
+//sample object
+// {
+//     title: "",
+//     footer: "",
+//     image: "",
+//     readme: "",
+//     github: "",
+//     demo: ""
+// }
 
 
+//desired items INPUT for portfolio
+var input = [
+    {
+        title: "GOT Hangman",
+        footer: "WARNING: may contain spoilers. A Game Of Thrones 8-bit themed version of Hangman using only HTML, CSS, Bootstrap and JavaScript.",
+        image: "images/got-hanged.png",
+        readme: "https://github.com/Gamlilorien/got-hanged/blob/master/README.md",
+        github: "https://github.com/Gamlilorien/got-hanged/",
+        demo: "https://gamlilorien.github.io/got-hanged/"
+    },
+    {
+        title: "HP Trivia Game",
+        footer: "A Harry Potter inspired trivia game built using timer events and DOM manulipation via Javascript and Jquery.",
+        image: "images/hp-trivia.png",
+        readme: "https://github.com/Gamlilorien/trivia-game/blob/master/README.md",
+        github: "https://github.com/Gamlilorien/trivia-game",
+        demo: "https://gamlilorien.github.io/trivia-game/"
+    },
+    {
+        title: "Crystal Collector",
+        footer: "A random number guessing game built with Javascript and Jquery.",
+        image: "images/crystal-collector.png",
+        readme: "https://github.com/Gamlilorien/crystal-game/blob/master/README.md",
+        github: "https://github.com/Gamlilorien/crystal-game",
+        demo: "https://gamlilorien.github.io/crystal-game/"
+    },
+    {
+        title: "",
+        footer: "",
+        image: "",
+        readme: "",
+        github: "",
+        demo: ""
+    }
+];
+
+//function to loop through array of INPUT objects and then write out javascript
+//** we want columns with no more than 3 items per row **
 
 
 //EVENT triggers
