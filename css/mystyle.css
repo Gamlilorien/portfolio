@@ -83,6 +83,10 @@ p {
     padding-top: 22px;
 }
 
+i {
+    color: #ce1c1c;
+}
+
 .title {
     color: rgb(117, 117, 117);
     font-weight: bold;

@@ -11,5 +11,8 @@ var currentYear = function () {
 //EVENT triggers
 //onload of page
 $(document).ready(function() {
+    //for copywrite year
     currentYear();
+    //for bootstrap tooltips
+    $('[data-toggle="tooltip"]').tooltip();
 });
