@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Added JS for navigaion menu to work on smaller screens! -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- ekko-lightbox effect -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="javascript/layout.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+        <!-- Nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <span class="navbar-brand text-white text-center bg-info ml-5 pt-3 pb-3 pl-3 pr-3">Jesse Mihalik-Howard</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-right ml-auto mr-5">
+              <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link active" href="#">Portfolio</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>
+      </nav>
+
+        <!-- Main content area; 1 Row 1 Column 2/3ds wide -->
+        <div class="container">
+            <section>
+              <div class="row">
+                <div class="col-12">
+                  <div class="row">
+        <!-- Portfolio content goes here -->
+                   <h2 class="title">Portfolio</h2>
+
+<!-- ekko-lightbox see; http://ashleydw.github.io/lightbox/#mixed-gallery -->
+<!-- <a href="images/Asbestos-Job-Checklist-rsd.png" data-toggle="lightbox" data-gallery="hidden-images" class="col-4" data-title="Asbestos Job Checklist">
+    <img src="images/Asbestos-Job-Checklist-rsd.png" class="img-fluid">
+</a>
+<a href="images/AdvanceCarwash.png" data-toggle="lightbox" data-gallery="hidden-images" class="col-4">
+    <img src="images/AdvanceCarwash.png" class="img-fluid">
+</a>
+<a href="images/RPG-Character-Generator-rsd.png" data-toggle="lightbox" data-gallery="hidden-images" class="col-4">
+    <img src="images/RPG-Character-Generator-rsd.png" class="img-fluid">
+</a> -->
+<!-- elements not showing, use data-remote -->
+<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="https://unsplash.it/1200/768.jpg?image=264" data-title="Hidden item 1"></div>
+<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="https://www.youtube.com/embed/b0jqPvpn3sY" data-title="Hidden item 2"></div>
+<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="https://unsplash.it/1200/768.jpg?image=265" data-title="Hidden item 3"></div>
+<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="https://unsplash.it/1200/768.jpg?image=266" data-title="Hidden item 4"></div>
+<div data-toggle="lightbox" data-gallery="hidden-images" data-remote="https://unsplash.it/1200/768.jpg?image=267" data-title="Hidden item 5"></div>
+
+
+        <!-- Begin Bootstrap Card Deck -->
+                      <div class="card-deck">
+
+                        <!-- Top row -->
+                        <div class="row portfolioRow">
+                          <div class="col-lg-4">
+                            <a href="images/Asbestos-Job-Checklist-rsd.png" data-toggle="lightbox" data-gallery="hidden-images" data-title="Inspections Job Checklist app" data-footer="Designed for a local Asbestos Abatement company, this FileMaker® App is designed to run on iPhone for quick job checklist and finished PDF report generation.">
+                                <img src="images/Asbestos-Job-Checklist-rsd.png" class="img-fluid">
+                            </a>
+                            <!-- <a href="images/Asbestos-Job-Checklist-rsd.png" data-fancybox="gallery" data-caption="Designed for a local Asbestos Abatement company, this FileMaker® App is designed to run on iPhone for quick job checklist and finished PDF report generation."><img class="card-img-top" src="images/Asbestos-Job-Checklist-rsd.png" alt="Inspections Job Checklist app"/></a> -->
+                            <div class="card-body">
+                              <h5 class="card-title">Inspections App</h5>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4">
+                            <a href="images/AdvanceCarwash.png" data-toggle="lightbox" data-gallery="hidden-images" data-title="Advance Carwarsh" data-footer="A responsive WordPress website redesign for local carwash equiptment retailer and supplier. The biggest challenge was designing easy navigation for their large number of products.">
+                                <img src="images/AdvanceCarwash.png" class="img-fluid">
+                            </a>
+                            <!-- <a href="images/AdvanceCarwash.png" data-fancybox="gallery" data-caption="A responsive WordPress website redesign for local carwash equiptment retailer and supplier. The biggest challenge was designing easy navigation for their large number of products."><img class="card-img-top" src="images/AdvanceCarwash.png" alt="Website for Advance Carwash"/></a> -->
+                            <div class="card-body">
+                              <h5 class="card-title">Advance Carwash</h5>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4">
+                            <a href="images/RPG-Character-Generator-rsd.png" data-toggle="lightbox" data-gallery="hidden-images" data-title="Tabletop RPG character generator" data-footer="A custom-built FileMaker® database for easy tabletop character generation. Designed with a sci-fi look, and built specifically for the Rifts RPG by Palladium Books®.">
+                                <img src="images/RPG-Character-Generator-rsd.png" class="img-fluid">
+                            </a>
+                            <!-- <a href="images/RPG-Character-Generator-rsd.png" data-fancybox="gallery" data-caption="A custom-built FileMaker® database for easy tabletop character generation. Designed with a sci-fi look, and built specifically for the Rifts RPG by Palladium Books®. "><img class="card-img-top" src="images/RPG-Character-Generator-rsd.png" alt="Tabletop RPG character generator"/></a> -->
+                            <div class="card-body">
+                              <h5 class="card-title">RPG Characters</h5>
+                            </div>
+                          </div>
+                        <!-- </div> -->
+                        
+                        <!-- Second Row -->
+                        <!-- <div class="row portfolioRow"> -->
+                          <div class="col-lg-4">
+                              <a href="images/Admissions-&-Registration-rsd.png" data-toggle="lightbox" data-gallery="hidden-images" data-title="Admissions and Registration system for West River Acadamy" data-footer="Student CRM and addmissions tracking system for internal staff use on Mac, built with FileMaker. Provides scripted on-timer import from ODBC form data via their public facing WordPress website.">
+                                <img class="card-img-top" src="images/Admissions-&-Registration-rsd.png" alt="Admissions and Registration system for West River Acadamy"/>
+                              </a>
+                              <!-- <img class="card-img-top" src="images/Admissions-&-Registration-rsd.png" alt="Admissions and Registration system for West River Acadamy"> -->
+                              <div class="card-body">
+                                <h5 class="card-title">Student Registration</h5>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                              <a href="images/Peaceful-Om-Intake-Start.png" data-toggle="lightbox" data-gallery="hidden-images" data-title="Spa intake form app for iPad" data-footer="Example of automated client intake form on iPads hosted locally via FileMaker Pro. This system has error handling for required/ skipped fields as well as signature capture and quick reporting of user input for therapist on their iPhone.">
+                                <img class="card-img-top" src="images/Peaceful-Om-Intake-Start.png" alt="Spa intake form app for iPad"/>
+                              </a>
+                              <!-- <img class="card-img-top" src="images/Peaceful-Om-Intake-Start.png" alt="Spa intake form app for iPad"> -->
+                              <div class="card-body">
+                                <h5 class="card-title">Spa Intake Form</h5>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                              <a href="images/Inventory-QR-Codes-rsd.png" data-toggle="lightbox" data-gallery="hidden-images" data-title="Batch tracking and QR code generator FileMaker app for iPhone" data-footer="A custom FileMaker Pro application for local CBD company. The app compiles product ingredients, batch information, certified low THC results, and auto-generates dynamic QR-Codes and regulation info for easy copy/paste to client website.">
+                                <img class="card-img-top" src="images/Inventory-QR-Codes-rsd.png" alt="Batch tracking and QR code generator FileMaker app for iPhone"/>
+                              </a>
+                              <!-- <img class="card-img-top" src="images/Inventory-QR-Codes-rsd.png" alt="Batch tracking and QR code generator FileMaker app for iPhone"> -->
+                              <div class="card-body">
+                                <h5 class="card-title">Batch tracking App</h5>
+                              </div>
+                            </div>
+                        </div>
+
+                      </div>
+          <!-- End Bootstrap Card Deck -->
+
+                  </div>
+                </div>
+              </div>
+            </section>
+        </div>
+
+        <!-- Insert JS initialization for lightbox -->
+        <!-- <script type="text/javascript">
+          $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+              event.preventDefault();
+              $(this).ekkoLightbox();
+          });
+        </script> -->
+
+        <footer>
+            Copywrite<span class="cYear"></span>
+        </footer>
+
+
+</body>
+</html>
